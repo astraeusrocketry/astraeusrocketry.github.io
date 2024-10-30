@@ -11,5 +11,6 @@ Welcome to the GitHub repo of the Astraeus rocketry webpage! We are a new team b
 + Rudrojas Kunvar
 + Arjun Mujumdar
 + Dhruv Srivastava
++ Samuel Adeniyi-Jones
 + Daniel Shi
 + Jason Kim
