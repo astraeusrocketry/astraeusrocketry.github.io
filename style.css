@@ -34,24 +34,26 @@ p {
     overflow: hidden;
     background-color: #333;
     margin: -8px -8px 0px -8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .navBar a {
-    float: left;
     color: #ffffff;
     text-align: center;
-    padding: 18px 16px;
+    padding: 18px 25px;
     text-decoration: none;
     font-size: 20px;
 }
 
-.navbar a:hover {
-    background-color: #555555;
+.navBar a:hover {
+    background-color: #404040;
     color: white;
 }  
 
-.navbar a.active {
-    background-color: #555555;
+.navBar a.active {
+    background-color: #272626;
     color: white;
 }
 
