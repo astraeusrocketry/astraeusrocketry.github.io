@@ -47,6 +47,10 @@ p {
     font-size: 25px;
 }
 
+a {
+    color: #ffffff;
+}
+
 .navBar {
     overflow: hidden;
     background-color: #333;
@@ -82,7 +86,7 @@ p {
     background-color: rgb(53, 57, 61);
     max-width: 1300px;
     margin: auto;
-    padding: 20px 40px;
+    padding: 10px 40px;
 }
 
 .highlighted {
@@ -189,8 +193,4 @@ footer {
     text-align: right;
     padding: 25px;
     margin-right: 80px;
-}
-
-.footerLeft a {
-    color: #ffffff;
 }
