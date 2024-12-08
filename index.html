@@ -4,37 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/5a6fc2c1d3.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Home | Astraeus Rocketry</title>
+    <script src="https://kit.fontawesome.com/5a6fc2c1d3.js" crossorigin="anonymous"></script>
+    <title>Astraeus Rocketry</title>
   </head>
-  <body>
+  <body id="home">
     <div class="navBar">
-      <a class="active" href="index.html">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="team.html">TEAM</a>
+      <a class="active" href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#team">TEAM</a>
       <a href="sponsors.html">SPONSORS</a>
       <a href="contact.html">CONTACT</a>
     </div>
-    <!-- TODO: Put h1 and h2 in div with team picture as background -->
     <div class="heroBox">
       <img src="resources/herologotype.svg" alt="Astraeus" />
     </div>
     <!-- TODO: Add sponsors section -->
-    <div class="mainBox">
+    <div class="mainBox" style="margin-bottom: -80px">
       <h2 style="text-align: center">
-        An American Rocketry Challenge (ARC) team based in Poolesville,
-        Maryland.
+        An American Rocketry Challenge (ARC) team based in <span class="highlighted">Poolesville, Maryland.</span>
       </h2>
-      <h2 style="text-align: left; margin-bottom: 30px">Our Goals:</h2>
+      <h2 class="subheading" style="margin-bottom: 40px">Our Goals:</h2>
       <div class="goalContainer">
         <div class="goalBoxLeft">
-          <i
-            class="fa-solid fa-rocket"
-            style="color: #ffffff; font-size: 80px"
-          ></i>
+          <i class="fa-solid fa-rocket" style="color: #ffffff; font-size: 80px"></i>
           <div class="goalBoxLeftText">
             <p style="letter-spacing: 3px">
               <strong>DELIVER A PAYLOAD</strong>
@@ -55,10 +47,7 @@
           </div>
         </div>
         <div class="goalBoxLeft">
-          <i
-            class="fa-solid fa-clock"
-            style="color: #ffffff; font-size: 80px"
-          ></i>
+          <i class="fa-solid fa-clock" style="color: #ffffff; font-size: 80px"></i>
           <div class="goalBoxLeftText">
             <p style="letter-spacing: 3px">
               <strong>FLY FOR A SET TIME</strong>
@@ -67,14 +56,8 @@
           </div>
         </div>
         <div class="goalBoxRight" style="margin-bottom: 20px">
-          <i
-            class="fa-solid fa-parachute-box"
-            style="color: #ffffff; font-size: 80px"
-          ></i>
-          <div
-            class="goalBoxRightText"
-            style="margin-right: 40px; margin-top: -25px"
-          >
+          <i class="fa-solid fa-parachute-box" style="color: #ffffff; font-size: 80px"></i>
+          <div class="goalBoxRightText" style="margin-right: 40px; margin-top: -25px">
             <p style="letter-spacing: 3px">
               <strong>RETURN TO GROUND</strong>
             </p>
@@ -83,38 +66,66 @@
         </div>
       </div>
     </div>
+    <div class="mainBox" id="about">
+        <h2 class="subheading">Our Plan:</h2>
+        <p>
+            Create an actively guided rocket that uses <span class="highlighted">four fins</span> to steer and brake
+            the rocket to the precise altitude.
+        </p>
+        <p>
+            The airframe of our rocket will be:
+        </p>
+        <ul>
+            <li>3D printed</li>
+            <li>Composite</li>
+            <li>Light</li>
+            <li>Rigid</li>
+        </ul>
+        <p>
+            providing a <span class="highlighted">safe ascent and descent</span> for the payload.
+        </p>
+        <p>
+            For descent control, our rocket will feature a reefed parachute design to allow us incredible authority
+            over our sink rate, ultimately allowing us to <span class="highlighted">flawlessly land</span> the vehicle
+            after flight.
+        </p>
+        <p>
+            All of this will be controlled with off-the-shelf flight computers running software specifically designed
+            around simulations. These simulations will <span class="highlighted">calculate aerodynamic forces</span> on
+            the aircraft during flight.
+        </p>
+    </div>
+    <div class="mainBox" id="team">
+        <div class="teamDescription">
+            <div class="teamList">
+                <h2 class="subheading">Our Team:</h2>
+                <ul>
+                    <li>Aryan Singh</li>
+                    <li>Goran Naydenov</li>
+                    <li>Hriday Bhanushali</li>
+                    <li>Samuel Adeniyi Jones III</li>
+                    <li>Hanish Soundarrajan</li>
+                    <li>Rudrojas Kunvar</li>
+                    <li>Arjun Mujumdar</li>
+                    <li>Dhruv Srivastava</li>
+                    <li>Daniel Shi</li>
+                    <li>Jason Kim</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <footer>
       <div class="footerText">
-        <div class="footerSocials">
-          <p>
-            <strong>OUR SOCIALS:</strong>
-          </p>
-          <a
-            style="display: inline-block; color: #ffffff"
-            href="https://www.instagram.com/astraeus.rocket"
-          >
-            <div
-              class="footerInstagram"
-              href="https://www.instagram.com/astraeus.rocket"
-            >
-              <i
-                class="fa-brands fa-square-instagram"
-                style="font-size: 40px"
-              ></i>
+          <p><strong>OUR SOCIALS:</strong></p>
+          <a class="footerSocial" href="https://www.instagram.com/astraeus.rocket">
+              <i class="fa-brands fa-square-instagram" style="font-size: 40px"></i>
               <p style="margin-left: 20px; margin-top: 7px">@astraeus.rocket</p>
-            </div>
           </a>
-        </div>
       </div>
-      <p
-        style="
-          font-size: 20px;
-          text-align: right;
-          padding: 25px;
-          margin-right: 80px;
-        "
-      >
-        made with &lt;3 by aryan and hanish
+      <p class="love">
+        made with <span style="color: hotpink; font-weight: bold">&lt;3</span> by
+          <a href="https://github.com/yamamara/" style="color: #ffffff">aryan</a> and
+          <a href="https://github.com/fyrhanish/" style="color: #ffffff">hanish</a>
       </p>
     </footer>
   </body>
